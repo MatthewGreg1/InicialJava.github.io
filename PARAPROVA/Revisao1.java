@@ -17,5 +17,12 @@ public class Revisao1{
     for( int x = 3 ; x > 0 ; x--){
       System.out.printf("%nCFB Cursos %d", x);
     }
+
+    int control = 0;
+
+    while(control <= 3){
+      System.out.println(control);
+      control++;
+    }
   }
 }
